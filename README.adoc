@@ -69,11 +69,16 @@ postgres --> type de base
 * Compléter le code manquant dans la méthode `TodoListController.createTodoItem()`
 
 *Pourquoi `todoItemRepository` est-il `null` ? Quelle est la meilleure façon de l'injecter ?*
-
+```
+Car il n'est pas inject au démarrage.
+```
 * Modifier le code en conséquence.
 
 * Tester vos endpoints avec un client REST.
-
+```
+Post fonctionne
+Get Fonctionne
+```
 
 [NOTE]
 ====
@@ -94,7 +99,9 @@ NOTE: Pour lancer l'application Spring, selectionner la classe `TodolistApplicat
 * Quand le nouveau endpoint fonctionne, commiter, faire un push vers Github et fermer le projet Eclipse (ne pas le supprimer).
 
 * Vérifier avec DBeaver que les donnnées sont bien en base PostgreSQL.
-
+```
+Fonctionnel vérifier avec PostMan
+```
 ### Exercice 2 - Refactoring en architecture hexagonale
 _Temps estimé : 1 h 20_
 
